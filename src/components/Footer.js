@@ -11,7 +11,7 @@ export default function Footer() {
             <h2 className={styles.title}>Atendimento</h2>
 
             <p className={styles.text} >Psicoterapia voltada ao público adulto</p>
-            <button className={styles.contactBtn}>ENTRAR EM CONTATO</button>
+            <button className={styles.contactBtn}>Whatsapp<img src='/whatsapp.svg' style={{ width: '50%', maxWidth: '20px', height: 'auto', marginLeft: '8px' }}/></button>
           </div>
 
           {/* Coluna direita */}
@@ -27,7 +27,7 @@ export default function Footer() {
         </div>
 
         <div className="text-center mt-4">
-          <small>&copy; {new Date().getFullYear()} Alef Devops. Todos os direitos reservados.</small>
+          <small>&copy; {new Date().getFullYear()} Pãmella S. Aranda. Todos os direitos reservados.</small>
         </div>
       </div>
     </footer>
