@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="col-md-6 text-center text-md-start mb-4 mb-md-0">
             <h2 className={styles.title}>Atendimento</h2>
 
-            <p className={styles.text} >Psicoterapia voltada ao público adulto</p>
+            {/*<p className={styles.text} >Psicoterapia voltada ao público adulto</p>*/}
             <button className={styles.contactBtn}>Whatsapp<img src='/whatsapp.svg' style={{ width: '50%', maxWidth: '20px', height: 'auto', marginLeft: '8px' }}/></button>
           </div>
 
