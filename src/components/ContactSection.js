@@ -2,7 +2,7 @@ import styles from '@/styles/ContactSection.module.css';
 
 export default function ContactSection() {
   return (
-    <section id="services" className={`py-4 bg-light ${styles.contactSection}`} style={{ margin: 0, padding: 0 }}>
+    <section id="services" className={`py-4 ${styles.contactSection}`} style={{ margin: 0, padding: 0 }}>
       <div className="container">
         <div className="row justify-content-end">
 

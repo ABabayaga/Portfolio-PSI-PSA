@@ -1,0 +1,9 @@
+.sections {
+  background-color: #F4E7DB;
+  min-height: 70vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  scroll-margin-top: 140px;
+}

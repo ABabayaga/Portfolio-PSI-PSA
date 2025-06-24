@@ -1,18 +1,10 @@
-import styles from '@/styles/ContactSection.module.css';
+import styles from '@/styles/ServicesSection.module.css';
 
 export default function ServicesSection() {
   return (
     <section
       id="about"
-      className="bg-light"
-      style={{
-        minHeight: '70vh',
-        margin: 0,
-        padding: 0,
-        display: 'flex',
-        alignItems: 'center',
-        scrollMarginTop: '140px'
-      }}
+      className={styles.sections}
     >
       <div className="container">
         <div className="row align-items-center">
