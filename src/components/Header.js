@@ -2,10 +2,10 @@ import styles from '@/styles/Header.module.css'
 
 export default function Header() {
   return (
-    <header className={`${styles.headernav} d-flex align-items-center border-bottom px-5`}>
+    <header className={`${styles.headernav} d-flex align-items-center px-5`}>
       {/* Coluna do logo */}
       <div style={{ width: '150px' }}>
-        <img src="/logo.svg" alt="Psicóloga" className="img-fluid" style={{ height: '140px', width: 'auto' }} />
+        <img src="/logo2.svg" alt="Psicóloga"  style={{ height: '100px', width: 'auto' }} />
       </div>
 
       {/* Coluna central com navegação */}

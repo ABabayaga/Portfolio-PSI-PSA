@@ -3,7 +3,7 @@ import styles from '@/styles/HeroSection.module.css';
 export default function HeroSection() {
   return (
     <section id='home' className={styles["hero-section"]}
-    style={{ scrollMarginTop: '160px' }}>
+    style={{ scrollMarginTop: '100px' }}>
 
       <div className={`container ${styles["hero-content"]}`}>
         <div className="row align-items-center">

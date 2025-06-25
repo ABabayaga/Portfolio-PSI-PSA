@@ -9,10 +9,9 @@
     width: 100%;
     z-index: 1000;
     background-color: #B4825F;
-    /* ou a cor desejada */
+    box-shadow: none;
     z-index: 1000;
-    box-shadow: 0 1px 1px rgba(223, 229, 210, 0.1);
-    /* opcional */
+   
 }
 
 .title1 {
