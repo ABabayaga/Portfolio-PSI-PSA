@@ -5,7 +5,8 @@ export default function Header() {
     <header className={`${styles.headernav} d-flex align-items-center px-5`}>
       {/* Coluna do logo */}
       <div style={{ width: '150px' }}>
-        <img src="/logo2.svg" alt="Psicóloga"  style={{ height: '100px', width: 'auto' }} />
+        {/*<img src="/logo2.svg" alt="Psicóloga"  style={{ height: '100px', width: 'auto' }} />*/}
+        <img src="/logop2.svg" alt="Psicóloga"  style={{ width: '250px', height: 'auto' }} />
       </div>
 
       {/* Coluna central com navegação */}
