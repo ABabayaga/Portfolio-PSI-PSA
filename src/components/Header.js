@@ -6,7 +6,7 @@ export default function Header() {
       {/* Coluna do logo */}
       <div style={{ width: '150px' }}>
         {/*<img src="/logo2.svg" alt="Psicóloga"  style={{ height: '100px', width: 'auto' }} />*/}
-        <img src="/logop2.svg" alt="Psicóloga"  style={{ width: '250px', height: 'auto' }} />
+        <img src="/logok.svg" alt="Psicóloga"  style={{ width: '230px', height: 'auto',position: 'relative', left: '110px'  }} />
       </div>
 
       {/* Coluna central com navegação */}

@@ -11,7 +11,7 @@ export default function ServicesSection() {
           {/* Coluna da imagem (agora à esquerda) */}
           <div className="py-4 col-md-4 mb-4 mb-md-0">
             <img
-              src="/foto2.png"
+              src="/pam.png"
               alt="Therapist"
               className="img-fluid rounded"
             />

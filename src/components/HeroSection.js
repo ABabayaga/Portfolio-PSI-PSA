@@ -8,19 +8,19 @@ export default function HeroSection() {
       <div className={`container ${styles["hero-content"]}`}>
         <div className="row align-items-center">
           {/* Coluna da frase */}
-          <div className="col-md-6 text-md-start text-center mb-4 mb-md-0">
+          <div className="col-md-6 text-md-start text-center mb-4">
             <blockquote className="blockquote">
-              <p className="fs-4">
+              <p className={`${styles.quote}`}>
                 “I am not what happened to me, I am what I choose to become.”
               </p>
-              <footer className="blockquote-footer mt-2">Carl Jung</footer>
+              <footer className={`${styles.quote}`}>-Carl Jung</footer>
             </blockquote>
           </div>
 
           {/* Coluna da imagem */}
           <div className="col-md-6 text-center">
             <img
-              src="/first.png"
+              src="/pam3.jpeg"
               alt="Psicóloga"
               className={`img-fluid ${styles["hero-img"]}`}
             />

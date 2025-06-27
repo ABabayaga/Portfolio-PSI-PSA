@@ -10,9 +10,22 @@
     z-index: 1000;
     background-color: #c49676;
     box-shadow: none;
-    z-index: 1000;
-   
-}
+
+    padding-top: 10px;
+  padding-bottom: 0px;
+  min-height: 120px; 
+  
+    /* Altura e espaçamento reduzido */
+    /*padding-top: 10px;
+    padding-bottom: 10px;
+
+    
+  
+    /* Garante que o conteúdo se alinhe bem */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
 .title1 {
     font-family: 'Playfair Display', serif;
