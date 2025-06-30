@@ -1,4 +1,4 @@
-import styles from '@/styles/ContactSection.module.css';
+import styles from '@/styles/TherapySection.module.css';
 
 export default function ContactSection() {
   return (
