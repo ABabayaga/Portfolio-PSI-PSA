@@ -7,3 +7,12 @@
   align-items: center;
   scroll-margin-top: 140px;
 }
+
+.title1 {
+  font-family: 'Playfair Display', serif;
+  margin-top: -40px;
+}
+
+.text {
+  margin-top: 40px;
+}
