@@ -2,33 +2,23 @@ import styles from '@/styles/TherapySection.module.css';
 
 export default function ContactSection() {
   return (
-    <section id="services" className={`py-4 ${styles.contactSection}`} style={{ margin: 0, padding: 0 }}>
-      <div className="container">
-        <div className="row justify-content-end">
+    <section id="services" className={styles.contactSection}>
+      <div className={styles.centerContainer}>
+        <h2 className={styles.title}>
+          <img src="/brain.png" width="35" height="35" alt="Cérebro" />
+          Área de Foco da Terapia
+        </h2>
 
-          <div className="col-md-4">
-            <h2 className={styles.title}>Therapy Focus Area</h2>
+        <div className={styles.columns}>
+          <div className={styles.column}>
+            <p><img src="/brown.svg" width="16" height="16" className="me-2" /> Transtornos de ansiedade (ansiedade generalizada, fobias, pânico, etc).</p>
+            <p><img src="/brown.svg" width="16" height="16" className="me-2" /> Transtorno obsessivo-compulsivo (TOC).</p>
+            <p><img src="/brown.svg" width="16" height="16" className="me-2" /> Luto e processos de perda.</p>
           </div>
-
-          <div className="col-md-8">
-            {/*<h2 className={styles.title}>Welcome</h2>*/}
-
-            {/* Linha com 2 colunas de 4 palavras */}
-            <div className="row mt-3">
-              <div className="col-6">
-                <p><img src="/brown.svg" alt="" width="16" height="16" className="me-2" />Palavra 1</p>
-                <p><img src="/brown.svg" alt="" width="16" height="16" className="me-2" />Palavra 2</p>
-                <p><img src="/brown.svg" alt="" width="16" height="16" className="me-2" />Palavra 3</p>
-                <p><img src="/brown.svg" alt="" width="16" height="16" className="me-2" />Palavra 4</p>
-              </div>
-              <div className="col-6">
-                <p><img src="/brown.svg" alt="" width="16" height="16" className="me-2" />Palavra 5</p>
-                <p><img src="/brown.svg" alt="" width="16" height="16" className="me-2" />Palavra 6</p>
-                <p><img src="/brown.svg" alt="" width="16" height="16" className="me-2" />Palavra 7</p>
-                <p><img src="/brown.svg" alt="" width="16" height="16" className="me-2" />Palavra 8</p>
-              </div>
-            </div>
-
+          <div className={styles.column}>
+            <p><img src="/brown.svg" width="16" height="16" className="me-2" /> Pacientes com doenças crônicas e em cuidados paliativos.</p>
+            <p><img src="/brown.svg" width="16" height="16" className="me-2" /> Depressão e questões relacionadas ao humor.</p>
+            <p><img src="/brown.svg" width="16" height="16" className="me-2" /> Dificuldades nos relacionamentos (afetivos, familiares ou sociais).</p>
           </div>
         </div>
       </div>

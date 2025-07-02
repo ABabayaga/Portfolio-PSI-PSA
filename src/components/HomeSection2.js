@@ -2,18 +2,19 @@
 import styles from '@/styles/Header.module.css'
 
 export default function AboutSection() {
-    return (
-      <section id=""
+  return (
+    <section
+      id=""
       className={`${styles.header} d-flex align-items-center justify-content-center text-center`}
-      style={{ minHeight: '30vh', margin: 0, padding: 0 }}>
-        <div className="row align-items-center justify-content-center text-center">
-          <p>
-          Compassionate, evidence based<br/>
-           psychological services, dedicated to <br/>
-           transforming lives and building healthier<br/>
-            communities.
-          </p>
-        </div>
-      </section>
-    );
-  }
+      style={{ minHeight: '30vh', margin: 0, padding: 0 }}
+    >
+      <div className="d-flex flex-column align-items-center justify-content-center w-100">
+        <img src="/leaf.png" alt="Leaf Icon" style={{ width: '40px', marginBottom: '25px' }} />
+        <p style={{ fontSize: '1.2rem', lineHeight: '1.6', maxWidth: '600px', margin: '0 auto' }}>
+          Atendimento psicológico humanizado, com base em evidências científicas, acolhendo a dor e promovendo transformação.
+        </p>
+      </div>
+    </section>
+
+  );
+}

@@ -15,4 +15,6 @@
 
 .text {
   margin-top: 41px;
+  text-align: justify;
+  line-height: 1.5;
 }
