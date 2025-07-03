@@ -23,7 +23,7 @@ export default function ServicesSection() {
             <p className={styles.text}>
               Olá, sou Pãmella da Silva Aranda, psicóloga com atuação fundamentada na Terapia Cognitivo-Comportamental (TCC) e, atualmente, dedicada ao aprofundamento na Terapia de Aceitação e Compromisso (ACT), uma abordagem que tem ampliado minha escuta clínica e minha prática profissional.
 
-              Sou mestre e doutoranda em Psicologia da Saúde, com foco em cuidados paliativos – tema que me mobiliza profundamente por seu olhar humano e integrativo sobre o sofrimento, a vida e o cuidado. Atuo também como professora universitária, o que me permite compartilhar e construir saberes com novos profissionais da psicologia.
+              Sou mestre e doutoranda em Psicologia da Saúde, com foco em cuidados paliativos – tema que me mobiliza profundamente por seu olhar humano e integral sobre o sofrimento, a vida e o cuidado. Atuo também como professora universitária, o que me permite compartilhar e construir saberes com novos profissionais da psicologia.
 
               Minha trajetória inclui experiências no contexto hospitalar e em serviços de saúde mental como o CAPS, onde acompanhei pessoas com transtornos mentais graves e severos. Ao longo dessa caminhada, também participei de uma residência multiprofissional em cuidados continuados integrados, o que enriqueceu minha compreensão sobre o cuidado interdisciplinar.
 
