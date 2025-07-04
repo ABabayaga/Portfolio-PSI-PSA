@@ -4,10 +4,11 @@ export default function ContactSection() {
   return (
     <section id="services" className={styles.contactSection}>
       <div className={styles.centerContainer}>
-        <h2 className={styles.title}>
-          <img src="/brain.png" width="35" height="35" alt="Cérebro" />
-          Área de Foco da Terapia
+        <h2 className={styles.title}><strong>
+         {/* <img src="/brain.png" width="35" height="35" alt="Cérebro" />*/}
+          Área de Foco da Terapia</strong>
         </h2>
+        <hr className={styles.hrDecorative} />
 
         <div className={styles.columns}>
           <div className={styles.column}>

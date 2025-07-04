@@ -24,6 +24,21 @@
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 30px;
+
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+
+.hrDecorative {
+  width: 80px;
+  height: 3px;
+  background-color: #422b1a;
+  border: none;
+  margin: 8px auto 24px;
+  border-radius: 2px;
 }
 
 .columns {
