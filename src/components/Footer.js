@@ -11,7 +11,10 @@ export default function Footer() {
             <h2 className={styles.title}>Atendimento</h2>
 
             {/*<p className={styles.text} >Psicoterapia voltada ao público adulto</p>*/}
-            <button className={styles.contactBtn}>Whatsapp<img src='/whatsapp.svg' style={{ width: '50%', maxWidth: '20px', height: 'auto', marginLeft: '8px' }}/></button>
+            <a href='https://wa.me/5567996333839?text=Olá%21%20Gostaria%20de%20mais%20informações%20sobre%20o%20atendimento.' target="_blank"
+  rel="noopener noreferrer">
+            <button re className={styles.contactBtn}>Whatsapp<img src='/whatsapp.svg' style={{ width: '50%', maxWidth: '20px', height: 'auto', marginLeft: '8px' }}/></button>
+            </a>
           </div>
 
           {/* Coluna direita */}
@@ -19,7 +22,7 @@ export default function Footer() {
             <h2 className={styles.title}>Contato</h2>
             <div className={styles.text} >
             <p> (67) 97541-3669</p>
-            <p> CRP</p>
+            <p> CRP: 14/08821-8</p>
             <p>psipamellasaranda@gmail.com</p>
             <p>Rua José Antônio, 2200 - Monte Castelo, Campo Grande - MS</p>
             </div>
