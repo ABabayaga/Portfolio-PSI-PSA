@@ -20,7 +20,7 @@ export default function HeroSection() {
           {/* Coluna da imagem */}
           <div className="col-md-6 text-center">
             <img
-              src="/pam3.jpeg"
+              src="/pam33.png"
               alt="Psicóloga"
               className={`img-fluid ${styles["hero-img"]}`}
             />

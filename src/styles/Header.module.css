@@ -1,15 +1,6 @@
-.header {
-    background-color: #c6997950;
-
-}
-
-.headerimg{
-    /*box-shadow: 0px 0px 5px 1px #e2c9a2;*/
-    background-color: #c9a083a1;
-}
-
 .headernav {
-    position: fixed;
+    
+    position: static;
     top: 0;
     width: 100%;
     z-index: 1000;
@@ -31,6 +22,19 @@
     align-items: center;
     justify-content: space-between;
   }
+
+.header {
+    background-color: #ffffff50;
+    /*background-color: #c6997950;*/
+
+}
+
+.headerimg{
+    /*box-shadow: 0px 0px 5px 1px #e2c9a2;*/
+    background-color: #c9a083a1;
+}
+
+
 
 .title1 {
     font-family: 'Playfair Display', serif;
