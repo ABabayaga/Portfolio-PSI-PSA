@@ -35,3 +35,21 @@
   color: #a6795a;
   margin-top: 8px;
 }
+
+@media (max-width: 576px) {
+  .hero-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px; /* se quiser suavizar as bordas no mobile */
+    margin-bottom: 2rem;
+  }
+
+  .quote {
+    font-size: 1.2rem;
+    padding: 0 10px;
+  }
+
+  .hero-section {
+    padding: 2rem 1rem;
+  }
+}

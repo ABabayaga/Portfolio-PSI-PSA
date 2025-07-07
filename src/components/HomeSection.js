@@ -11,9 +11,9 @@ export default function HeroSection() {
           <div className="col-md-6 text-md-start text-center mb-4">
             <blockquote className="blockquote">
               <p className={`${styles.quote}`}>
-                “I am not what happened to me, I am what I choose to become.”
+                “Autoconhecimento não para sair do caos, mas para estar nele e não sair de si.”
               </p>
-              <footer className={`${styles.quote}`}>-Carl Jung</footer>
+              {/*<footer className={`${styles.quote}`}>-Carl Jung</footer>*/}
             </blockquote>
           </div>
 

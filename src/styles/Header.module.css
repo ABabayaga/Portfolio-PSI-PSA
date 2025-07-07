@@ -23,28 +23,29 @@
     justify-content: space-between;
   }
 
-  .logoContainer {
-    width: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  /* ====================
+   DESKTOP
+==================== */
+.logoContainer {
+  width: 150px;
+  display: flex;
+  justify-content: flex-start; /* alinha à esquerda */
+  padding-left: 30px; /* ajuste esse valor conforme necessário */
+}
+
+.headerimg {
+  width: 180%;
+  max-width: 300px;
+  height: auto;
+  background-color: #c9a083a1;
+  margin-left: 180px;
+}
 
 .header {
     background-color: #ffffff50;
     /*background-color: #c6997950;*/
 
 }
-
-.headerimg {
-    width: 100%;
-    max-width: 230px;
-    height: auto;
-    /*position: relative;*/
-    background-color: #c9a083a1;
-  }
-
-
 
 .title1 {
     font-family: 'Playfair Display', serif;
@@ -54,23 +55,26 @@
     font-family: 'Libre Baskerville', serif;
 }
 
-/* MOBILE: mostre logo centralizada e ajustada */
+/* ====================
+   MOBILE
+==================== */
 @media (max-width: 576px) {
-    .headernav {
-      flex-direction: column;
-      align-items: center;
-      padding: 10px 0;
-    }
-  
-    .logoContainer {
-      width: 100%;
-      justify-content: center;
-      margin-bottom: 10px;
-    }
-  
-    .headerimg {
-      max-width: 180px;
-    }
-  
-    
+  .headernav {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
   }
+
+  .logoContainer {
+    width: 100%;
+    padding-left: 0 !important; /* anula o padding do desktop */
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .headerimg {
+    max-width: 180px;
+    margin: 0 auto;
+    display: block;
+  }
+}

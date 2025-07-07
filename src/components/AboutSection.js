@@ -13,13 +13,13 @@ export default function ServicesSection() {
             <img
               src="/pam.png"
               alt="Therapist"
-              className="img-fluid rounded"
+              className={styles.img}
             />
           </div>
 
           {/* Coluna do texto (agora à direita) */}
           <div className="col-md-8">
-            <h2 className={`text-start ${styles.title1}`}>Bem-vindo(a)</h2>
+            <h2 className={styles.title1}>Bem-vindo(a)</h2>
             <p className={styles.text}>
               Olá, sou Pãmella da Silva Aranda, psicóloga com atuação fundamentada na Terapia Cognitivo-Comportamental (TCC) e, atualmente, dedicada ao aprofundamento na Terapia de Aceitação e Compromisso (ACT), uma abordagem que tem ampliado minha escuta clínica e minha prática profissional.
 
