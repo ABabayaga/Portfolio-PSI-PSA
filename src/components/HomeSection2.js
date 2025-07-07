@@ -20,7 +20,7 @@ export default function AboutSection() {
             borderRadius: '2px'
           }}
         />
-        <p style={{ fontSize: '1.2rem', lineHeight: '1.6', maxWidth: '600px', margin: '0 auto' }}>
+        <p className={styles.title1} style={{ fontSize: '1.2rem', lineHeight: '1.6', maxWidth: '600px', margin: '0 auto' }}>
           Atendimento psicológico humanizado, com base em evidências científicas, acolhendo a dor e promovendo transformação.
         </p>
       </div>

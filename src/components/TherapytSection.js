@@ -12,14 +12,14 @@ export default function ContactSection() {
 
         <div className={styles.columns}>
           <div className={styles.column}>
-            <p><img src="/brown.svg" width="16" height="16" className="me-2" /> Transtornos de ansiedade (ansiedade generalizada, fobias, pânico, etc).</p>
-            <p><img src="/brown.svg" width="16" height="16" className="me-2" /> Transtorno obsessivo-compulsivo (TOC).</p>
-            <p><img src="/brown.svg" width="16" height="16" className="me-2" /> Luto e processos de perda.</p>
+            <p><span className={styles.dot}></span> Transtornos de ansiedade (ansiedade generalizada, fobias, pânico, etc).</p>
+            <p><span className={styles.dot}></span> Transtorno obsessivo-compulsivo (TOC).</p>
+            <p><span className={styles.dot}></span> Luto e processos de perda.</p>
           </div>
           <div className={styles.column}>
-            <p><img src="/brown.svg" width="16" height="16" className="me-2" /> Pacientes com doenças crônicas e em cuidados paliativos.</p>
-            <p><img src="/brown.svg" width="16" height="16" className="me-2" /> Depressão e questões relacionadas ao humor.</p>
-            <p><img src="/brown.svg" width="16" height="16" className="me-2" /> Dificuldades nos relacionamentos (afetivos, familiares ou sociais).</p>
+            <p><span className={styles.dot}></span> Pacientes com doenças crônicas e em cuidados paliativos.</p>
+            <p><span className={styles.dot}></span> Depressão e questões relacionadas ao humor.</p>
+            <p><span className={styles.dot}></span> Dificuldades nos relacionamentos (afetivos, familiares ou sociais).</p>
           </div>
         </div>
       </div>
