@@ -4,9 +4,9 @@ export default function Header() {
   return (
     <header className={`${styles.headernav} d-flex align-items-center px-5`}>
       {/* Coluna do logo */}
-      <div style={{ width: '150px' }}>
+      <div className={styles.logoContainer}>
         {/*<img src="/logo2.svg" alt="Psicóloga"  style={{ height: '100px', width: 'auto' }} />*/}
-        <img src="/logok.svg" alt="Psicóloga" className={`${styles.headerimg}`} style={{ width: '230px', height: 'auto',position: 'relative', left: '110px'  }} />
+        <img src="/logok.svg" alt="Psicóloga" className={styles.headerimg} />
       </div>
 
       {/* Coluna central com navegação */}
