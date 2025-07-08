@@ -34,11 +34,11 @@
 }
 
 .headerimg {
-  width: 190%;
+  width: 160%;
   max-width: 300px;
   height: auto;
   background-color: #c9a083a1;
-  margin-left: 180px;
+  margin-left: 160px;
 }
 
 .header {
@@ -53,6 +53,28 @@
 
 .title2 {
     font-family: 'Libre Baskerville', serif;
+}
+
+.contactBtn {
+  background-color: #40ac1c;
+  color: #ffffff;
+  border: none;
+  padding: 0.2rem 1.5rem; /* reduz altura do botão */
+  border-radius: 50px;
+  font-weight: bold;
+  margin-left: 12px;     /* espaçamento após 'Contato' */
+  margin-top: 0;         /* remove deslocamento para baixo */
+  font-size: 1rem;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+
+.contactBtn:hover {
+  background-color: #b4bac4;
+  cursor: pointer;
 }
 
 /* ====================
@@ -77,4 +99,15 @@
     margin: 0 auto;
     display: block;
   }
+
+  .title1 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem; /* espaço entre links */
+  }
+
+  
 }
