@@ -21,7 +21,7 @@ export default function Footer() {
           <div className="col-md-6 text-start">
             <h2 className={styles.title}>Contato</h2>
             <div className={styles.text} >
-            <p> (67) 97541-3669</p>
+            {/*<p> (67) 97541-3669</p>*/}
             <p> CRP: 14/08821-8</p>
             <p>psipamellasaranda@gmail.com</p>
             <p>Rua José Antônio, 2200 - Monte Castelo, Campo Grande - MS</p>

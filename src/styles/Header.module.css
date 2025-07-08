@@ -100,14 +100,7 @@
     display: block;
   }
 
-  .title1 {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem; /* espaço entre links */
-  }
+  
 
   
 }
