@@ -4,16 +4,17 @@ import AboutSection from '@/components/HomeSection2'
 import ServicesSection from '@/components/AboutSection'
 import ContactSection from '@/components/TherapytSection'
 import Footer from '@/components/Footer'
+import Head from 'next/head'
 
 
 export default function Home() {
   return (
     <>
-    <head>
+    <Head>
       <title>Pãmella S. Aranda</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link rel="icon" href="/psi.png" />
-    </head>
+    </Head>
       <Header />
       <HeroSection />
       <AboutSection />
