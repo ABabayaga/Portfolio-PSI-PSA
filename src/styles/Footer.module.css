@@ -1,33 +1,63 @@
-
-
 .footer {
-    background-color: #c4a289;
-    
-  }
-  
-  .title {
-    font-family: 'Playfair Display', serif;
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-    color: rgb(0, 0, 0);
+  background-color: #c4a289;
+
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: rgb(0, 0, 0);
+}
+
+.text {
+  color: rgb(0, 0, 0);
+}
+
+.contactBtn {
+  background-color: #40ac1c;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 40px;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.contactBtn:hover {
+  background-color: #b4bac4;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.custom-colleft{
+  color: #000000;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+
+.custom-colright {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  text-align: left; 
+}
+
+@media (min-width: 768px) {
+  .custom-colleft,
+  .custom-colright {
+    width: 48%;
   }
 
-  .text {
-    color: rgb(0, 0, 0);
+  .custom-colleft {
+    text-align: left;
   }
+
   
-  .contactBtn {
-    background-color: #40ac1c;
-    color: #ffffff;
-    border: none;
-    padding: 0.75rem 2rem;
-    border-radius: 40px;
-    font-weight: bold;
-    margin-top: 1rem;
-    transition: background-color 0.3s ease;
-  }
-  
-  .contactBtn:hover {
-    background-color: #b4bac4;
-    cursor: pointer;
-  }
+}
