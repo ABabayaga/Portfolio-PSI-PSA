@@ -3,8 +3,8 @@ import styles from '@/styles/Footer.module.css';
 export default function Footer() {
   return (
     <footer id='contato' className={`${styles.footer} py-5 text-white`}>
-      <div className="container" style={{ maxWidth: '760px' }} >
-        <div className={styles.row}>
+      <div className="container" style={{ maxWidth: '960px' }} >
+        <div className={`row ${styles.row}`}>
 
           {/* Coluna esquerda */}
           <div className={styles["custom-colleft"]}>
@@ -34,12 +34,17 @@ export default function Footer() {
 
           {/* Coluna direita */}
           <div className={styles["custom-colright"]}>
-            <h2 className={styles.title}>Contato</h2>
+            {/*<h2 className={styles.title}>Contato</h2>*/}
+
+            <p>
+              <span style={{ fontWeight: 'bold' }}>CONTATO</span>
+            </p>
+
             <div className={styles.text} >
               {/*<p> (67) 97541-3669</p>*/}
-              <p> CRP: 14/08821-8</p>
+              <p><span style={{ fontWeight: 'bold' }}>CRP:</span>  14/08821-8</p>
               <p>psipamellasaranda@gmail.com</p>
-              <p>Rua José Antônio, 2200 - Monte Castelo, Campo Grande - MS</p>
+              <p>Rua: José Antônio, 2200 - Monte Castelo, Campo Grande - MS</p>
             </div>
           </div>
         </div>
