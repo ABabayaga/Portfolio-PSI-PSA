@@ -1,36 +1,38 @@
 .headernav {
-    
-    position: static;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: #c6997950;
-    box-shadow: none;
 
-    padding-top: 10px;
+  position: static;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #c6997950;
+  box-shadow: none;
+
+  padding-top: 10px;
   padding-bottom: 0px;
-  min-height: 120px; 
-  
-    /* Altura e espaçamento reduzido */
-    /*padding-top: 10px;
+  min-height: 120px;
+
+  /* Altura e espaçamento reduzido */
+  /*padding-top: 10px;
     padding-bottom: 10px;
 
     
   
     /* Garante que o conteúdo se alinhe bem */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  /* ====================
+/* ====================
    DESKTOP
 ==================== */
 .logoContainer {
   width: 150px;
   display: flex;
-  justify-content: flex-start; /* alinha à esquerda */
-  padding-left: 30px; /* ajuste esse valor conforme necessário */
+  justify-content: flex-start;
+  /* alinha à esquerda */
+  padding-left: 30px;
+  /* ajuste esse valor conforme necessário */
 }
 
 .headerimg {
@@ -42,28 +44,32 @@
 }
 
 .header {
-    background-color: #ffffff50;
-    /*background-color: #c6997950;*/
+  background-color: #ffffff50;
+  /*background-color: #c6997950;*/
 
 }
 
 .title1 {
-    font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .title2 {
-    font-family: 'Libre Baskerville', serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .contactBtn {
+
   background-color: #40ac1c;
   color: #ffffff;
   border: none;
-  padding: 0.2rem 1.5rem; /* reduz altura do botão */
+  padding: 0.2rem 1.5rem;
+  /* reduz altura do botão */
   border-radius: 50px;
   font-weight: bold;
-  margin-left: 12px;     /* espaçamento após 'Contato' */
-  margin-top: 0;         /* remove deslocamento para baixo */
+  margin-left: 12px;
+  /* espaçamento após 'Contato' */
+  margin-top: 0;
+  /* remove deslocamento para baixo */
   font-size: 1rem;
   line-height: 1.2;
   display: flex;
@@ -74,6 +80,25 @@
 
 .contactBtn:hover {
   background-color: #b4bac4;
+  cursor: pointer;
+}
+
+.scheduleBtn {
+  background-color: #c79a79;
+  /* mesma cor do botão da imagem */
+  color: #000000;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 15px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: 'Playfair Display', serif;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.scheduleBtn:hover {
+  background-color: #b3a392;
   cursor: pointer;
 }
 
@@ -89,7 +114,8 @@
 
   .logoContainer {
     width: 100%;
-    padding-left: 0 !important; /* anula o padding do desktop */
+    padding-left: 0 !important;
+    /* anula o padding do desktop */
     justify-content: center;
     margin-bottom: 10px;
   }
@@ -100,7 +126,7 @@
     display: block;
   }
 
-  
 
-  
+
+
 }
