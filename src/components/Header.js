@@ -17,7 +17,7 @@ export default function Header() {
           <a href="#services" className="mx-3">Serviços</a>
           <a href="#contato" className="mx-3">Contato</a>
           <a href="https://wa.me/5567996333839?text=Olá%21%20Gostaria%20de%20mais%20informações%20sobre%20o%20atendimento." target="_blank"
-                rel="noopener noreferrer" className={`${styles.scheduleBtn} ms-3`}>Agendar Sessão</a>
+                rel="noopener noreferrer" style={{ fontWeight: 'bold'}} className={`${styles.scheduleBtn} ms-3`}>Agendar Sessão</a>
         </div>
       </nav>
 
