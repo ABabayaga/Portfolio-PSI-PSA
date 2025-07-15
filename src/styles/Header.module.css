@@ -102,6 +102,11 @@
   cursor: pointer;
 }
 
+.navlink {
+  margin-left: 0.75rem;  /* equivale ao Bootstrap mx-3 */
+  margin-right: 0.75rem;
+}
+
 /* ====================
    MOBILE
 ==================== */
@@ -125,6 +130,13 @@
     margin: 0 auto;
     display: block;
   }
+
+  .navlink {
+    margin-left: 0.25rem;  /* equivale ao Bootstrap mx-1 */
+    margin-right: 0.25rem;
+    font-size: 0.9rem; /* opcional para reduzir fonte no mobile */
+  }
+  
 
 
 

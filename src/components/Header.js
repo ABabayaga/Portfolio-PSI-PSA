@@ -12,12 +12,13 @@ export default function Header() {
       {/* Coluna central com navegação */}
       <nav className={` ${styles.title1} flex-grow-1 d-flex justify-content-center align-items-center`}>
         <div className="d-flex align-items-center">
-          <a href="#home" className="mx-3">Início</a>
-          <a href="#about" className="mx-3">Sobre</a>
-          <a href="#services" className="mx-3">Serviços</a>
-          <a href="#contato" className="mx-3">Contato</a>
+
+          <a href="#home" className={styles.navlink}>Início</a>
+          <a href="#about" className={styles.navlink}>Sobre</a>
+          <a href="#services" className={styles.navlink}>Serviços</a>
+          <a href="#contato" className={styles.navlink}>Contato</a>
           <a href="https://wa.me/5567996333839?text=Olá%21%20Gostaria%20de%20mais%20informações%20sobre%20o%20atendimento." target="_blank"
-                rel="noopener noreferrer" style={{ fontWeight: 'bold'}} className={`${styles.scheduleBtn} ms-3`}>Agendar Sessão</a>
+            rel="noopener noreferrer" style={{ fontWeight: 'bold' }} className={`${styles.scheduleBtn} ${styles.navlink}`}>Agendar Sessão</a>
         </div>
       </nav>
 
