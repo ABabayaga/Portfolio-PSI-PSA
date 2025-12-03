@@ -27,7 +27,7 @@ export default function Footer() {
             {<div style={{ textAlign: 'center' }}>
               <a href='https://wa.me/5567996333839?text=Olá%21%20Gostaria%20de%20mais%20informações%20sobre%20o%20atendimento.' target="_blank"
                 rel="noopener noreferrer">
-                <button re className={styles.contactBtn}>Whatsapp<img src='/whatsapp.svg' style={{ width: '50%', maxWidth: '20px', height: 'auto', marginLeft: '8px' }} /></button>
+                <button re className={styles.contactBtn}>Whatsapp<img src='/whatsapp.svg' style={{ width: '50%', maxWidth: '20px', height: 'auto', marginLeft: '8px' }} alt='whatsapp' /></button>
               </a>
             </div>}
           </div>

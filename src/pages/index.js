@@ -10,11 +10,15 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <>
-    <Head>
-      <title>Pãmella S. Aranda</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <link rel="icon" href="/psi.png" />
-    </Head>
+      <Head>
+        <title>Pãmella S. Aranda</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Atendimento psicológico humanizado, com base em estudos científicos, acolhendo a dor e promovendo transformação."
+        />
+        <link rel="icon" href="/psi.png" />
+      </Head>
       <Header />
       <HeroSection />
       <AboutSection />
