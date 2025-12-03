@@ -44,7 +44,7 @@ export default function Footer() {
               {/*<p> (67) 97541-3669</p>*/}
               <p><span style={{ fontWeight: 'bold', fontFamily: 'Playfair Display, serif' }}>CRP:</span>  14/08821-8</p>
               <p>psipamellasaranda@gmail.com</p>
-              <p>Rua: José Antônio, 2200 - Monte Castelo, Campo Grande - MS</p>
+              <p>Rua: Pedro Celestino, 2533 - Centro, Campo Grande - MS</p>
             </div>
           </div>
         </div>
