@@ -21,7 +21,7 @@ export default function AboutSection() {
           }}
         />
         <p className={styles.title1} style={{ fontSize: '1.2rem', lineHeight: '1.6', maxWidth: '600px', margin: '0 auto' }}>
-          Atendimento psicológico humanizado, com base em evidências científicas, acolhendo a dor e promovendo transformação.
+          Atendimento psicológico humanizado, com base em estudos científicos, acolhendo a dor e promovendo transformação.
         </p>
       </div>
     </section>
